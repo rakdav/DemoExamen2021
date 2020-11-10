@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="DemoExamen.UserControlTovar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DemoExamen"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="130" Background="White">
+    <Grid>
+        <StackPanel Orientation="Vertical" Width="130" Height="200" Margin="0">
+            <Image Name="Image" Height="100" Width="100" Margin="10 10 10 10" Source="Images/1781670-1.jpg"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <RadioButton />
+                <RadioButton />
+                <RadioButton />
+                <RadioButton />
+            </StackPanel>
+            <Label Name="Name" Margin="5 5 5 5"/>
+            <Label Name="Cost" Margin="5 5 5 5"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
